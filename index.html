@@ -38,6 +38,7 @@
         <input id="entry-id" type="hidden">
         <p><label for="entry-title">Título:</label><br><input id="entry-title" required></p>
         <p><label for="entry-date">¿Cuándo ocurrió?</label><br><input id="entry-date" type="date" required></p>
+        <p><label for="entry-subject">Asignatura:</label><br><select id="entry-subject" required></select></p>
         <p><label for="entry-category">Categoría:</label><br><input id="entry-category" required></p>
         <p><label for="entry-content">Contenido:</label><br><textarea id="entry-content" rows="6" cols="50" required></textarea></p>
         <button type="submit" id="entry-submit">Guardar bitácora</button>
@@ -52,6 +53,8 @@
         <input id="search" type="search">
         <label for="filter-date">Filtrar por fecha (2026):</label>
         <input id="filter-date" type="date">
+        <label for="filter-subject">Asignatura:</label>
+        <select id="filter-subject"><option value="">Todas</option></select>
       </p>
       <div id="entries"></div>
       <p id="no-entries" hidden>No hay bitácoras.</p>

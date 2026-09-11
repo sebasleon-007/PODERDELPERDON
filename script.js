@@ -8,11 +8,41 @@ const appSection = $('#app-section');
 const authForm = $('#auth-form');
 const entryForm = $('#entry-form');
 const dateFilter = $('#filter-date');
+const subjectFilter = $('#filter-subject');
+const subjectSelect = $('#entry-subject');
 const currentYear = new Date().getFullYear();
 const yearStart = `${currentYear}-01-01`;
 const yearEnd = `${currentYear}-12-31`;
 dateFilter.min = yearStart;
 dateFilter.max = yearEnd;
+
+const subjects = [
+  { name: 'DESARROLLO DE APLICACIONES MOVILES_006D', signature: '2026_2_PO_DSY1104_24618385_PCT' },
+  { name: 'DESARROLLO FULLSTACK II_005D', signature: '2026_2_PO_PFC013_24618424_PCT' },
+  { name: 'EL PODER DEL PERDON_001D', signature: '2026_2_PO_EFUNL_24669078_PCT' },
+  { name: 'ESTADISTICA DESCRIPTIVA_004D', signature: '2026_2_PO_EAY4730_24617948_PCT' },
+  { name: 'ETICA PARA EL TRABAJO_003D', signature: '' },
+  { name: 'INGLES INTERMEDIO I_006D', signature: '' },
+  { name: 'LA PERSONALIDAD DE JESUS_002D', signature: '' },
+  { name: 'TALLER DE BASE DE DATOS_007D', signature: '' }
+];
+
+function subjectOptions(includeAll) {
+  return (includeAll ? '<option value="">Todas</option>' : '') +
+    subjects.map((subject) => {
+      const label = subject.signature ? `${subject.name} — ${subject.signature}` : subject.name;
+      return `<option value="${escapeHtml(subject.name)}">${escapeHtml(label)}</option>`;
+    }).join('');
+}
+
+subjectSelect.innerHTML = subjectOptions(false);
+subjectFilter.innerHTML = subjectOptions(true);
+
+function subjectLabel(name) {
+  const subject = subjects.find((item) => item.name === name);
+  if (!subject || !subject.signature) return name;
+  return `${subject.name} — ${subject.signature}`;
+}
 let registerMode = false;
 let users = read(USERS_KEY);
 let entries = read(ENTRIES_KEY);
@@ -47,6 +77,7 @@ const initialEntries = [
     author: 'PODERDELPERDON',
     title: 'Bitácora 1',
     date: '2026-08-01',
+    subject: 'EL PODER DEL PERDON_001D',
     category: 'Reflexión',
     content: `VULNERABILIDAD
 Frente a la muerte, se cae toda máscara y aparece lo que somos de verdad.
@@ -83,6 +114,7 @@ Vivimos en tensión entre lo que debería importarnos y lo que realmente prioriz
     author: 'PODERDELPERDON',
     title: 'Bitácora 2',
     date: '2026-08-15',
+    subject: 'EL PODER DEL PERDON_001D',
     category: 'Amor y fragilidad',
     content: `Necesidad estructural de amar: ser valorados, queridos, tener vínculos y sentirnos parte de la naturaleza.
 
@@ -120,6 +152,7 @@ Miedo.`
     author: 'PODERDELPERDON',
     title: 'Bitácora 28/08/2026',
     date: '2026-08-28',
+    subject: 'EL PODER DEL PERDON_001D',
     category: 'Perdón y justicia',
     content: `Vínculo transaccional: riqueza, lujos, superficial e intocable.
 
@@ -152,6 +185,7 @@ Para poder vivir tranquilo, poder amar y ser amado.`
     author: 'PODERDELPERDON',
     title: 'Bitácora 04/09/2026',
     date: '2026-09-04',
+    subject: 'EL PODER DEL PERDON_001D',
     category: 'Vínculos',
     content: `Amor: cuidar, querer, sentir especial. Tristeza y necesidad antropológica.
 
@@ -304,6 +338,7 @@ entryForm.addEventListener('submit', (event) => {
   const data = {
     title: $('#entry-title').value.trim(),
     date: $('#entry-date').value,
+    subject: subjectSelect.value,
     category: $('#entry-category').value.trim(),
     content: $('#entry-content').value.trim()
   };
@@ -328,13 +363,15 @@ function renderEntries() {
   const query = $('#search').value.toLowerCase().trim();
   const visible = entries.filter((entry) => {
     const text = `${entry.title} ${entry.category} ${entry.content}`.toLowerCase();
-    return text.includes(query) && (!dateFilter.value || entry.date === dateFilter.value);
+    return text.includes(query) &&
+      (!dateFilter.value || entry.date === dateFilter.value) &&
+      (!subjectFilter.value || (entry.subject || 'EL PODER DEL PERDON_001D') === subjectFilter.value);
   });
 
   $('#entries').innerHTML = visible.map((entry) => `
     <article class="entry-card" tabindex="0" role="button" data-open="${entry.id}" aria-label="Abrir ${escapeHtml(entry.title)}">
       <h3>${escapeHtml(entry.title)}</h3>
-      <p>Fecha: ${formatDate(entry.date)}<br>Categoría: ${escapeHtml(entry.category)}<br>Publicado por: ${escapeHtml(entry.author)}</p>
+      <p>Asignatura: ${escapeHtml(subjectLabel(entry.subject || 'EL PODER DEL PERDON_001D'))}<br>Fecha: ${formatDate(entry.date)}<br>Categoría: ${escapeHtml(entry.category)}<br>Publicado por: ${escapeHtml(entry.author)}</p>
       <p class="card-preview">${escapeHtml(entry.content)}</p>
     </article>
   `).join('');
@@ -349,7 +386,7 @@ function openDetail(id) {
   $('#entry-detail').hidden = false;
   $('#detail-category').textContent = entry.category;
   $('#detail-title').textContent = entry.title;
-  $('#detail-meta').textContent = `Fecha: ${formatDate(entry.date)} | Autor: ${entry.author}`;
+  $('#detail-meta').textContent = `Asignatura: ${subjectLabel(entry.subject || 'EL PODER DEL PERDON_001D')} | Fecha: ${formatDate(entry.date)} | Autor: ${entry.author}`;
   $('#detail-content').textContent = entry.content;
   $('#detail-actions').innerHTML = canManage(entry)
     ? `<button type="button" data-detail-edit="${entry.id}">Editar</button>
@@ -369,6 +406,7 @@ function startEdit(id) {
   $('#entry-id').value = entry.id;
   $('#entry-title').value = entry.title;
   $('#entry-date').value = entry.date;
+  subjectSelect.value = entry.subject || 'EL PODER DEL PERDON_001D';
   $('#entry-category').value = entry.category;
   $('#entry-content').value = entry.content;
   $('#entry-form-title').textContent = 'Editar bitácora';
@@ -435,5 +473,6 @@ $('#detail-actions').addEventListener('click', (event) => {
 
 $('#search').addEventListener('input', renderEntries);
 dateFilter.addEventListener('change', renderEntries);
+subjectFilter.addEventListener('change', renderEntries);
 updateAuthMode();
 showApp();
