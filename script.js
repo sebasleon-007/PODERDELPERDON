@@ -19,31 +19,26 @@ dateFilter.min = yearStart;
 dateFilter.max = yearEnd;
 
 const subjects = [
-  { name: 'DESARROLLO DE APLICACIONES MOVILES_006D', signature: '2026_2_PO_DSY1104_24618385_PCT' },
-  { name: 'DESARROLLO FULLSTACK II_005D', signature: '2026_2_PO_PFC013_24618424_PCT' },
-  { name: 'EL PODER DEL PERDON_001D', signature: '2026_2_PO_EFUNL_24669078_PCT' },
-  { name: 'ESTADISTICA DESCRIPTIVA_004D', signature: '2026_2_PO_EAY4730_24617948_PCT' },
-  { name: 'ETICA PARA EL TRABAJO_003D', signature: '' },
-  { name: 'INGLES INTERMEDIO I_006D', signature: '' },
-  { name: 'LA PERSONALIDAD DE JESUS_002D', signature: '' },
-  { name: 'TALLER DE BASE DE DATOS_007D', signature: '' }
+  'DESARROLLO DE APLICACIONES MOVILES_006D',
+  'DESARROLLO FULLSTACK II_005D',
+  'EL PODER DEL PERDON_001D',
+  'ESTADISTICA DESCRIPTIVA_004D',
+  'ETICA PARA EL TRABAJO_003D',
+  'INGLES INTERMEDIO I_006D',
+  'LA PERSONALIDAD DE JESUS_002D',
+  'TALLER DE BASE DE DATOS_007D'
 ];
 
 function subjectOptions(includeAll) {
   return (includeAll ? '<option value="">Todas</option>' : '') +
-    subjects.map((subject) => {
-      const label = subject.signature ? `${subject.name} — ${subject.signature}` : subject.name;
-      return `<option value="${escapeHtml(subject.name)}">${escapeHtml(label)}</option>`;
-    }).join('');
+    subjects.map((subject) => `<option value="${escapeHtml(subject)}">${escapeHtml(subject)}</option>`).join('');
 }
 
 subjectSelect.innerHTML = subjectOptions(false);
 subjectFilter.innerHTML = subjectOptions(true);
 
 function subjectLabel(name) {
-  const subject = subjects.find((item) => item.name === name);
-  if (!subject || !subject.signature) return name;
-  return `${subject.name} — ${subject.signature}`;
+  return name;
 }
 let registerMode = false;
 let users = read(USERS_KEY);
@@ -435,10 +430,10 @@ function renderEntries() {
 
 function renderSubjects() {
   $('#subject-cards').innerHTML = subjects.map((subject) => {
-    const count = entries.filter((entry) => (entry.subject || 'EL PODER DEL PERDON_001D') === subject.name).length;
-    return `<button class="subject-card" type="button" data-subject="${escapeHtml(subject.name)}">
-      <strong>${escapeHtml(subject.name)}</strong>
-      <span>${escapeHtml(subject.signature || 'Sin signatura')} · ${count} ${count === 1 ? 'bitácora' : 'bitácoras'}</span>
+    const count = entries.filter((entry) => (entry.subject || 'EL PODER DEL PERDON_001D') === subject).length;
+    return `<button class="subject-card" type="button" data-subject="${escapeHtml(subject)}">
+      <strong>${escapeHtml(subject)}</strong>
+      <span>${count} ${count === 1 ? 'bitácora' : 'bitácoras'}</span>
     </button>`;
   }).join('');
 }
