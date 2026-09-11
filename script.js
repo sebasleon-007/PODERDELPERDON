@@ -10,6 +10,8 @@ const entryForm = $('#entry-form');
 const dateFilter = $('#filter-date');
 const subjectFilter = $('#filter-subject');
 const subjectSelect = $('#entry-subject');
+const entriesView = $('#entries-view');
+const subjectBrowser = $('#subject-browser');
 const currentYear = new Date().getFullYear();
 const yearStart = `${currentYear}-01-01`;
 const yearEnd = `${currentYear}-12-31`;
@@ -207,6 +209,58 @@ Traición.
 Elige un color para el “vínculo cargado de odio” que describe Irene:
 
 Rojo.`
+  },
+  {
+    id: 'bitacora-11-09-2026',
+    author: 'PODERDELPERDON',
+    title: 'Bitácora 11/09/2026',
+    date: '2026-09-11',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Misericordia',
+    content: `MISERICORDIA
+
+LÓGICA DE RETRIBUCIÓN
+Daño → culpa → castigo.
+
+OBJETIVO DE CLASE
+El perdón es una expresión del amor misericordioso de Dios.
+
+MANERAS DE RESPONDER AL ERROR
+¿Qué castigo merece?
+
+LA MIRADA DE LA MISERICORDIA
+La misericordia es una forma de mirar al otro que reconoce su error, pero no reduce a la persona a ese error.
+
+LA RESTAURACIÓN DE LA DIGNIDAD
+Restaurar la dignidad es volver a tratar a la persona como alguien valioso.
+Su error, su historia o la mirada de los demás no agotan quién es.
+
+EL REGALO DE LA GRATITUD
+Normalmente damos algo porque alguien lo ganó o lo merece. La gratitud funciona de otra manera: es ofrecer un bien que no depende solamente del mérito del otro.
+
+RUTINA: VER, PENSAR, PREGUNTAR
+
+VER
+Vi la escena en la que el sacerdote se acerca a Tim sin ningún tipo de miedo. Me impactó mucho cómo le toma las manos y lo mira directo a los ojos con pura ternura.
+
+Me fijé en que Tim venía de un mundo donde los golpes y el maltrato eran la única forma de contacto físico que conocía, pero este hombre lo toca con respeto y cariño.
+
+No vi en el cura ninguna mirada de juicio, desconfianza o rechazo, a pesar de que Tim era un joven gigante, boxeador y con una actitud muy violenta.
+
+PENSAR
+Me quedé pensando en lo fuerte que debe ser que te traten con dignidad por primera vez en la vida. Para alguien como Tim, que siempre se sintió basura o una amenaza, que un desconocido lo mire con amor le rompió todos los esquemas.
+
+Pienso que los discursos no cambian a las personas; lo que realmente transforma es sentirse aceptado y querido. A veces un solo gesto sincero de perdón puede hacer tambalear años de odio y rabia acumulada.
+
+Me hace reflexionar sobre cómo detrás de las personas más duras o defensivas suele haber un dolor enorme que solo necesita ser acogido, no juzgado.
+
+PREGUNTAR
+¿De dónde saca ese sacerdote la capacidad de mirar con tanto amor y sin nada de miedo a alguien que la sociedad daría por perdido?
+
+¿Cómo puedo aprender a mirar a los demás con esa misma empatía en mi día a día, incluso a quienes me cuesta aceptar?
+
+CUATRO IDEAS CENTRALES
+Misericordia, gratitud, dignidad restaurada y nuevo comienzo.`
   }
 ];
 
@@ -357,6 +411,7 @@ entryForm.addEventListener('submit', (event) => {
   cancelEdit();
   showMessage('#entry-message', 'Bitácora guardada.');
   renderEntries();
+  renderSubjects();
 });
 
 function renderEntries() {
@@ -376,6 +431,30 @@ function renderEntries() {
     </article>
   `).join('');
   $('#no-entries').hidden = visible.length > 0;
+}
+
+function renderSubjects() {
+  $('#subject-cards').innerHTML = subjects.map((subject) => {
+    const count = entries.filter((entry) => (entry.subject || 'EL PODER DEL PERDON_001D') === subject.name).length;
+    return `<button class="subject-card" type="button" data-subject="${escapeHtml(subject.name)}">
+      <strong>${escapeHtml(subject.name)}</strong>
+      <span>${escapeHtml(subject.signature || 'Sin signatura')} · ${count} ${count === 1 ? 'bitácora' : 'bitácoras'}</span>
+    </button>`;
+  }).join('');
+}
+
+function openSubject(subject) {
+  subjectFilter.value = subject;
+  subjectBrowser.hidden = true;
+  entriesView.hidden = false;
+  $('#selected-subject').textContent = subjectLabel(subject);
+  renderEntries();
+}
+
+function closeSubjects() {
+  subjectFilter.value = '';
+  entriesView.hidden = true;
+  subjectBrowser.hidden = false;
 }
 
 function openDetail(id) {
@@ -448,6 +527,13 @@ $('#entries').addEventListener('click', (event) => {
   if (openId) openDetail(openId);
 });
 
+$('#subject-cards').addEventListener('click', (event) => {
+  const subject = event.target.closest('[data-subject]')?.dataset.subject;
+  if (subject) openSubject(subject);
+});
+
+$('#back-to-subjects').addEventListener('click', closeSubjects);
+
 $('#entries').addEventListener('keydown', (event) => {
   if ((event.key === 'Enter' || event.key === ' ') && event.target.dataset.open) {
     event.preventDefault();
@@ -467,6 +553,7 @@ $('#detail-actions').addEventListener('click', (event) => {
   if (deleteId && canDelete(entries.find((entry) => entry.id === deleteId)) && confirm('¿Eliminar esta bitácora?')) {
     entries = entries.filter((entry) => !(entry.id === deleteId && canManage(entry)));
     save(ENTRIES_KEY, entries);
+    renderSubjects();
     closeDetail();
   }
 });
@@ -476,3 +563,4 @@ dateFilter.addEventListener('change', renderEntries);
 subjectFilter.addEventListener('change', renderEntries);
 updateAuthMode();
 showApp();
+renderSubjects();
