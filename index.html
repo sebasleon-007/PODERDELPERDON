@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bitácora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">PODERDELPERDON</a>
+    <nav aria-label="Navegación principal">
+      <a href="#app-section" id="nav-home">Inicio</a>
+      <button type="button" id="nav-register">Registrarse</button>
+      <button type="button" id="nav-login">Iniciar sesión</button>
+    </nav>
+  </header>
+  <main>
+    <h1>Bitácora</h1>
+
+    <section id="auth-section" hidden>
+      <h2 id="auth-title">Iniciar sesión</h2>
+      <form id="auth-form">
+        <p><label for="username">Usuario:</label><br><input id="username" required autocomplete="username"></p>
+        <p><label for="password">Contraseña:</label><br><input id="password" type="password" required autocomplete="current-password"></p>
+        <button type="submit" id="auth-submit">Entrar</button>
+        <button type="button" id="toggle-auth">Crear una cuenta</button>
+        <p id="auth-message" role="alert"></p>
+      </form>
+    </section>
+
+    <section id="app-section">
+      <p>Sesión iniciada como <strong id="current-user"></strong>. <button id="logout" type="button">Cerrar sesión</button></p>
+
+      <h2 id="entry-form-title">Publicar bitácora</h2>
+      <p id="login-to-publish">Inicia sesión o regístrate para publicar una bitácora.</p>
+      <form id="entry-form">
+        <input id="entry-id" type="hidden">
+        <p><label for="entry-title">Título:</label><br><input id="entry-title" required></p>
+        <p><label for="entry-date">¿Cuándo ocurrió?</label><br><input id="entry-date" type="date" required></p>
+        <p><label for="entry-category">Categoría:</label><br><input id="entry-category" required></p>
+        <p><label for="entry-content">Contenido:</label><br><textarea id="entry-content" rows="6" cols="50" required></textarea></p>
+        <button type="submit" id="entry-submit">Guardar bitácora</button>
+        <button type="button" id="cancel-edit" hidden>Cancelar edición</button>
+        <p id="entry-message" role="status"></p>
+      </form>
+
+      <hr>
+      <h2>Bitácoras</h2>
+      <p>
+        <label for="search">Buscar:</label>
+        <input id="search" type="search">
+        <label for="filter-date">Filtrar por fecha (2026):</label>
+        <input id="filter-date" type="date">
+      </p>
+      <div id="entries"></div>
+      <p id="no-entries" hidden>No hay bitácoras.</p>
+    </section>
+
+    <section id="entry-detail" hidden aria-labelledby="detail-title">
+      <button type="button" id="back-to-entries">← Volver a las bitácoras</button>
+      <p id="detail-category"></p>
+      <h2 id="detail-title"></h2>
+      <p id="detail-meta"></p>
+      <div id="detail-content"></div>
+      <p id="detail-actions"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
