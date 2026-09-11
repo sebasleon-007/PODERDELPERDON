@@ -416,7 +416,7 @@ function renderEntries() {
     return text.includes(query) &&
       (!dateFilter.value || entry.date === dateFilter.value) &&
       (!subjectFilter.value || (entry.subject || 'EL PODER DEL PERDON_001D') === subjectFilter.value);
-  });
+  }).sort((first, second) => first.date.localeCompare(second.date));
 
   $('#entries').innerHTML = visible.map((entry) => `
     <article class="entry-card" tabindex="0" role="button" data-open="${entry.id}" aria-label="Abrir ${escapeHtml(entry.title)}">
