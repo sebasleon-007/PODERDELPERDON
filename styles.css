@@ -148,6 +148,40 @@ form textarea {
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
 }
 
+#subject-cards {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.subject-card {
+  background: #fdfdfd;
+  border: 1px solid #d1d1d5;
+  border-radius: 10px;
+  cursor: pointer;
+  min-height: 120px;
+  padding: 20px;
+  text-align: left;
+}
+
+.subject-card:hover,
+.subject-card:focus {
+  border-color: #725493;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.subject-card strong {
+  color: #39363d;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.subject-card span {
+  color: #66666d;
+  font-size: 14px;
+}
+
 .entry-card {
   background: #fdfdfd;
   border: 1px solid #d1d1d5;

@@ -47,17 +47,27 @@
       </form>
 
       <hr>
-      <h2>Bitácoras</h2>
-      <p>
-        <label for="search">Buscar:</label>
-        <input id="search" type="search">
-        <label for="filter-date">Filtrar por fecha (2026):</label>
-        <input id="filter-date" type="date">
-        <label for="filter-subject">Asignatura:</label>
-        <select id="filter-subject"><option value="">Todas</option></select>
-      </p>
-      <div id="entries"></div>
-      <p id="no-entries" hidden>No hay bitácoras.</p>
+      <section id="subject-browser" aria-labelledby="subjects-title">
+        <h2 id="subjects-title">Asignaturas</h2>
+        <p>Selecciona una asignatura para ver sus bitácoras.</p>
+        <div id="subject-cards"></div>
+      </section>
+
+      <section id="entries-view" hidden aria-labelledby="entries-title">
+        <button type="button" id="back-to-subjects">← Ver asignaturas</button>
+        <h2 id="entries-title">Bitácoras</h2>
+        <p id="selected-subject"></p>
+        <p>
+          <label for="search">Buscar:</label>
+          <input id="search" type="search">
+          <label for="filter-date">Filtrar por fecha (2026):</label>
+          <input id="filter-date" type="date">
+          <label for="filter-subject">Asignatura:</label>
+          <select id="filter-subject"><option value="">Todas</option></select>
+        </p>
+        <div id="entries"></div>
+        <p id="no-entries" hidden>No hay bitácoras.</p>
+      </section>
     </section>
 
     <section id="entry-detail" hidden aria-labelledby="detail-title">
