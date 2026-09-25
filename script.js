@@ -419,10 +419,11 @@ function renderEntries() {
   }).sort((first, second) => second.date.localeCompare(first.date));
 
   $('#entries').innerHTML = visible.map((entry) => `
-    <article class="entry-card" tabindex="0" role="button" data-open="${entry.id}" aria-label="Abrir ${escapeHtml(entry.title)}">
+    <article class="entry-card">
       <h3>${escapeHtml(entry.title)}</h3>
       <p>Asignatura: ${escapeHtml(subjectLabel(entry.subject || 'EL PODER DEL PERDON_001D'))}<br>Fecha: ${formatDate(entry.date)}<br>Categoría: ${escapeHtml(entry.category)}<br>Publicado por: ${escapeHtml(entry.author)}</p>
       <p class="card-preview">${escapeHtml(entry.content)}</p>
+      <button class="entry-open" type="button" data-open="${entry.id}">Ver bitácora completa</button>
     </article>
   `).join('');
   $('#no-entries').hidden = visible.length > 0;
@@ -518,7 +519,8 @@ $('#cancel-edit').addEventListener('click', () => {
 });
 
 $('#entries').addEventListener('click', (event) => {
-  const openId = event.target.closest('[data-open]')?.dataset.open;
+  const openButton = event.target.closest('[data-open]');
+  const openId = openButton ? openButton.dataset.open : '';
   if (openId) openDetail(openId);
 });
 
@@ -528,13 +530,6 @@ $('#subject-cards').addEventListener('click', (event) => {
 });
 
 $('#back-to-subjects').addEventListener('click', closeSubjects);
-
-$('#entries').addEventListener('keydown', (event) => {
-  if ((event.key === 'Enter' || event.key === ' ') && event.target.dataset.open) {
-    event.preventDefault();
-    openDetail(event.target.dataset.open);
-  }
-});
 
 $('#back-to-entries').addEventListener('click', closeDetail);
 
