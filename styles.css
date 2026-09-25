@@ -247,17 +247,6 @@ form textarea {
   -webkit-line-clamp: 3;
 }
 
-.entry-open {
-  background: #725493;
-  border: 0;
-  color: #fff;
-  margin-top: 8px;
-}
-
-.entry-open:hover {
-  background: #614582;
-}
-
 #entry-detail {
   background: #fdfdfd;
   border: 1px solid #d1d1d5;
