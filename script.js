@@ -7,6 +7,7 @@ const authSection = $('#auth-section');
 const appSection = $('#app-section');
 const authForm = $('#auth-form');
 const entryForm = $('#entry-form');
+const openEntryForm = $('#open-entry-form');
 const dateFilter = $('#filter-date');
 const subjectFilter = $('#filter-subject');
 const subjectSelect = $('#entry-subject');
@@ -309,8 +310,8 @@ function showApp() {
   authSection.hidden = true;
   appSection.hidden = false;
   $('#current-user').parentElement.hidden = !loggedIn;
-  $('#entry-form-title').hidden = !loggedIn;
-  $('#entry-form').hidden = !loggedIn;
+  openEntryForm.hidden = !loggedIn;
+  entryForm.hidden = true;
   $('#login-to-publish').hidden = loggedIn;
   if (loggedIn) $('#current-user').textContent = session;
   renderEntries();
@@ -404,6 +405,8 @@ entryForm.addEventListener('submit', (event) => {
   save(ENTRIES_KEY, entries);
   entryForm.reset();
   cancelEdit();
+  entryForm.hidden = true;
+  openEntryForm.hidden = false;
   showMessage('#entry-message', 'Bitácora guardada.');
   renderEntries();
   renderSubjects();
@@ -516,6 +519,14 @@ function cancelEdit() {
 $('#cancel-edit').addEventListener('click', () => {
   entryForm.reset();
   cancelEdit();
+  entryForm.hidden = true;
+  openEntryForm.hidden = false;
+});
+
+openEntryForm.addEventListener('click', () => {
+  entryForm.hidden = false;
+  openEntryForm.hidden = true;
+  $('#entry-title').focus();
 });
 
 $('#entries').addEventListener('click', (event) => {
@@ -538,6 +549,8 @@ $('#detail-actions').addEventListener('click', (event) => {
   const deleteId = event.target.dataset.detailDelete;
   if (editId) {
     closeDetail();
+    entryForm.hidden = false;
+    openEntryForm.hidden = true;
     startEdit(editId);
   }
   if (deleteId && canDelete(entries.find((entry) => entry.id === deleteId)) && confirm('¿Eliminar esta bitácora?')) {

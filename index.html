@@ -32,9 +32,10 @@
     <section id="app-section">
       <p>Sesión iniciada como <strong id="current-user"></strong>. <button id="logout" type="button">Cerrar sesión</button></p>
 
-      <h2 id="entry-form-title">Publicar bitácora</h2>
       <p id="login-to-publish">Inicia sesión o regístrate para publicar una bitácora.</p>
-      <form id="entry-form">
+      <button id="open-entry-form" type="button" hidden>Registrar bitácora</button>
+      <form id="entry-form" hidden>
+        <h2 id="entry-form-title">Registrar bitácora</h2>
         <input id="entry-id" type="hidden">
         <p><label for="entry-title">Título:</label><br><input id="entry-title" required></p>
         <p><label for="entry-date">¿Cuándo ocurrió?</label><br><input id="entry-date" type="date" required></p>
