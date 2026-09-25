@@ -408,6 +408,7 @@ entryForm.addEventListener('submit', (event) => {
   cancelEdit();
   entryForm.hidden = true;
   entryAction.hidden = false;
+  subjectBrowser.hidden = false;
   showMessage('#entry-message', 'Bitácora guardada.');
   renderEntries();
   renderSubjects();
@@ -521,11 +522,15 @@ $('#cancel-edit').addEventListener('click', () => {
   cancelEdit();
   entryForm.hidden = true;
   entryAction.hidden = false;
+  subjectBrowser.hidden = false;
 });
 
 openEntryForm.addEventListener('click', () => {
   entryForm.hidden = false;
   entryAction.hidden = true;
+  subjectBrowser.hidden = true;
+  entriesView.hidden = true;
+  $('#entry-detail').hidden = true;
   $('#entry-title').focus();
 });
 
