@@ -258,6 +258,200 @@ PREGUNTAR
 
 CUATRO IDEAS CENTRALES
 Misericordia, gratitud, dignidad restaurada y nuevo comienzo.`
+  },
+  {
+    id: 'actividades-indira-14-08-2026',
+    author: 'Indira',
+    title: 'Actividades complementarias — 14/08/2026',
+    date: '2026-08-14',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Vulnerabilidad y vínculos',
+    content: `Cariño, lealtad y vínculo especial incondicional.
+
+Amor: elección y estar.
+Dolor: sufrimiento.
+Ética cristiana.
+
+VULNERABILIDAD
+La exposición inevitable a ser dañados física o emocionalmente. Lejos de ser una debilidad que ocultar, es la condición que nos permite conectar, empatizar y ser auténticos con los demás.
+
+FRAGILIDAD
+Saber que no somos de piedra y que cualquiera se puede romper. Aceptar nuestros límites nos enseña a cuidarnos mejor y a pedir ayuda cuando la necesitamos.
+
+NECESIDAD DE AMOR
+El impulso biológico y existencial de pertenecer, ser vistos y valorados. Es el motor principal del bienestar humano; sin afecto y vínculo, la mente y el cuerpo se deterioran.
+
+TENSIÓN HUMANA
+La lucha interna entre la dignidad de ser creados a imagen de Dios y la inclinación al pecado o al egoísmo; la brecha entre lo que somos y lo que estamos llamados a ser.
+
+RUTINA: PENSAR, INQUIETAR, EXPLORAR
+
+PENSAR
+¿Qué hace pensar que personas que no se conocen (pacientes y paramédicos) coincidan en que lo más importante es el perdón?
+
+La fragilidad del cuerpo ante la muerte iguala a todos. Los pacientes no piden títulos ni dinero: necesitan irse en paz. El paramédico rompe su distancia profesional al tomar la mano del moribundo y transmitir misericordia. En ese último aliento aparece la tensión entre el peso del pasado y el deseo de redención.
+
+INQUIETAR
+¿Qué inquieta o sorprende de la frase “Frente a la muerte inminente, todo lo que quería era perdón”?
+
+Inquieta que el paciente solo se atreva a admitir sus errores cuando ya no tiene tiempo para defender su ego. La fragilidad de un ataque al corazón o un accidente borra la ilusión de autosuficiencia. Algunas personas ruegan por una gracia que pospusieron toda su vida; la necesidad de absolución sobrepasa incluso el pánico físico a morir.
+
+EXPLORAR
+¿Qué aspectos de la necesidad de amor ignoramos en el día a día y solo reconocemos al final?
+
+Ignoramos la vulnerabilidad al no pedir perdón por miedo a quedar “debajo” del otro. La rutina acelerada e individualista nos hace olvidar la fragilidad y la necesidad del cuidado mutuo. A veces elegimos relaciones por conveniencia en vez de cultivar el perdón y confundimos la necesidad de amor con una presencia más.
+
+EL PUENTE DE LOS VÍNCULOS
+Lo más valioso en una relación de amistad o romántica es el respeto, la lealtad, el apoyo mutuo y la confianza. Duele confiar en alguien que después rompe esa confianza, habla mal de uno o cuenta algo confidencial.
+
+RUTINA: VER, PENSAR, CONECTAR — TESTIMONIO DE STEVEN
+
+VER
+Steven McDonald trabajaba en Central Park y detuvo a tres jóvenes que robaban una bicicleta. Uno de ellos le disparó tres veces, en la mano, el cuello y el ojo, lo dejó parapléjico y cambió trágicamente la vida de ambos.
+
+PENSAR
+Detrás de su labor y de su decisión de perdonar había un deseo de cuidar a su comunidad y liberar a su familia del odio y la amargura.
+
+CONECTAR
+El miedo, la inmadurez o la desesperación pueden llevarnos a reaccionar a la defensiva y herir a otros. Para amar bien necesitamos superar las reacciones impulsivas y elegir la empatía y el perdón por encima del rencor.
+
+KINTSUGI: LA BELLEZA DE LO FRÁGIL
+La grieta que cuesta aceptar es la autoexigencia y el miedo a no ser suficiente. Cuesta asumir los errores y que no se puede controlar todo; el valor personal no depende de los logros, sino también de aprender a quererse con las propias imperfecciones.`
+  },
+  {
+    id: 'actividades-indira-28-08-2026',
+    author: 'Indira',
+    title: 'Actividades complementarias — 28/08/2026',
+    date: '2026-08-28',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Perdón y justicia',
+    content: `LA RESPUESTA A LA IRREVERSIBILIDAD — CITAS DE HANNAH ARENDT
+
+CITA N.º 1
+“El perdón, en su esencia, no tiene nada que ver con la justicia; nace de una experiencia radical de libertad y de la necesidad de seguir viviendo juntos”.
+
+¿Cuál es la diferencia entre perdonar y hacer justicia?
+La justicia se basa en la norma, la retribución y la medida frente a un daño. El perdón no busca una sanción: nace de la libertad y de la necesidad de mantener la convivencia.
+
+¿El perdón puede convivir con la justicia o la reemplaza?
+Pueden convivir de forma complementaria. La justicia atiende el ámbito legal e institucional; el perdón opera en el ámbito interpersonal y ético y permite sanar el vínculo. El perdón no anula la responsabilidad legal.
+
+CITA N.º 2
+“La facultad de perdonar (...) es uno de los pocos actos en los que el ser humano puede ser verdaderamente libre y originar algo nuevo”.
+
+¿Qué relación hay entre perdón y libertad?
+Sin perdón, una persona puede quedar encadenada al pasado y a reacciones como la venganza. Al perdonar, decide romper esa cadena en vez de limitarse a reaccionar a la ofensa.
+
+¿Por qué el perdón puede verse como un acto creador?
+Porque interrumpe la inercia del pasado y genera un nuevo comienzo, abriendo posibilidades que antes no existían.
+
+CITA N.º 3
+¿Qué significa que nuestras acciones son irreversibles?
+Una vez realizada una acción, es imposible deshacerla o volver el tiempo atrás. Todo acto deja una huella permanente.
+
+¿Por qué el perdón es una necesidad más que una opción?
+Como las acciones no se pueden revertir, la vida en comunidad sería insostenible si quedáramos atrapados para siempre en el pasado. El perdón permite continuar viviendo juntos.`
+  },
+  {
+    id: 'actividades-indira-04-09-2026',
+    author: 'Indira',
+    title: 'Actividades complementarias — 04/09/2026',
+    date: '2026-09-04',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Dios nos quiere como Padre',
+    content: `FICHA “MI MOCHILA”
+
+Tres razones por las que cuesta perdonar:
+1. Pensar que no es justo perdonar.
+2. Esperar a que la otra persona pida perdón primero.
+3. Recordar a cada rato lo que hicieron.
+
+RUTINA: COLOR, SÍMBOLO, IMAGEN — TESTIMONIO DE IRENE VILLA
+
+COLOR
+El negro representa la pesadez, el veneno y la opresión. Simboliza cómo el resentimiento consume la energía y ata al pasado.
+
+SÍMBOLO
+Cortar el hilo representa el acto consciente de romper la atadura, recuperar el control de la propia vida y decidir no seguir ligada a quien hizo daño.
+
+IMAGEN
+Una persona de pie en la cima de una colina suelta una mochila metálica pesada que cae al vacío. Con la espalda recta, los hombros relajados y los brazos abiertos, mira hacia el horizonte. La imagen transmite ligereza, paz y libertad para seguir adelante.`
+  },
+  {
+    id: 'actividades-indira-11-09-2026',
+    author: 'Indira',
+    title: 'Actividades complementarias — 11/09/2026',
+    date: '2026-09-11',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Perdón y acogida',
+    content: `PASAJE BÍBLICO: JUAN 8, 1-11 — OBRA DE ARTE DE POLENOV
+
+Una mujer es acusada de adulterio y llevada ante Jesús por escribas y fariseos para ponerlo a prueba. Querían que decidiera si debía ser apedreada. Jesús responde que quien esté libre de pecado sea el primero en lanzar la piedra. Todos se retiran y Jesús no la condena, sino que le da una oportunidad para cambiar su vida.
+
+TESTIMONIO DE TIM GUÉNARD — RUTINA: VER, PENSAR, PREGUNTAR
+
+VER
+Un sacerdote se acerca a Tim y lo trata con cariño y comprensión, a pesar de su pasado y de las cosas malas que había hecho.
+
+PENSAR
+El sacerdote no lo juzgó por sus errores; le mostró que podía ser diferente y que alguien podía confiar en él. El amor, la acogida y el perdón pueden ayudar a una persona a cambiar.
+
+PREGUNTAR
+¿Por qué el sacerdote decidió confiar en Tim a pesar de conocer su pasado?
+¿Cómo influyó este encuentro en el cambio de vida de Tim?
+
+CUATRO CONCEPTOS
+Perdón, confianza, acogida y cambio.`
+  },
+  {
+    id: 'bitacora-02-10-2026',
+    author: 'PODERDELPERDON',
+    title: 'Bitácora 02/10/2026',
+    date: '2026-10-02',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Restauración y nuevo comienzo',
+    content: `LADRILLOS DE CLAUSURA — ACTIVIDAD DE INICIO
+
+Escribe una frase o etiqueta que sientas que “cierra” la historia de una persona.
+
+“Siempre cometo los mismos errores”.
+“Nunca voy a cambiar”.
+“Fue mi culpa”.
+“Nunca voy a lograrlo”.
+“Nadie me va a entender jamás”.
+“La gente no cambia”.
+
+MAPA DE RESTAURACIÓN — EXPEDIENTES DE VIDA NUEVA
+
+GRUPO 1: PEDRO
+
+Antes: Pedro estaba marcado por la culpa y el remordimiento de haber negado a Jesús tres veces. La herida en su lealtad y la sensación de incapacidad lo mantenían estancado en el pasado y el miedo.
+
+Durante: Jesús le pregunta tres veces “¿Me amas?” y “¿Me quieres?”. Con cada respuesta le encarga cuidar a sus corderos y ovejas, y termina invitándolo de nuevo: “Sígueme”. Jesús responde a sus tres negaciones con amor y confianza renovada.
+
+Después: Pedro pasa de la culpa a la misión. Ya no se mira como el discípulo que falló, sino como un pastor amado y perdonado, con fortaleza para guiar a los seguidores de Jesús.
+
+GRUPO 2: EL MALHECHOR
+
+Antes: Estaba condenado a muerte y reconocía que sus acciones merecían consecuencias; sentía desesperanza ante el final de su vida.
+
+Durante: Después de pedir ayuda a Jesús —“Acuérdate de mí cuando vengas con tu Reino”—, Jesús le promete: “Hoy estarás conmigo en el Paraíso”.
+
+Después: Pasa de verse como un criminal rechazado a ser recibido y perdonado, e integrado a la salvación y al Reino de Dios.
+
+GRUPO 3: BARTIMEO
+
+Antes: Vivía con ceguera física y marginación social. Era un mendigo al borde del camino, ignorado y silenciado por la multitud.
+
+Durante: Jesús se detiene, pide que lo llamen y le pregunta qué quiere. Cuando Bartimeo pide recobrar la vista, Jesús le dice: “Vete, tu fe te ha salvado”.
+
+Después: Recupera la vista y pasa de ser un mendigo ciego a un discípulo que sigue a Jesús.
+
+CRUZANDO EL UMBRAL — ACTIVIDAD DE CIERRE
+
+Escribe en la puerta una palabra de esperanza que resuma lo aprendido.
+
+A pesar de las dificultades y los problemas causados, siempre podemos arrepentirnos: Jesús nos perdona y nos guarda un lugar en el Paraíso. La idea no es cometer errores hasta cambiar, sino empezar nosotros mismos el cambio desde ahora.`
   }
 ];
 
