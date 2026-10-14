@@ -112,7 +112,7 @@ Vivimos en tensión entre lo que debería importarnos y lo que realmente prioriz
     id: 'bitacora-2',
     author: 'PODERDELPERDON',
     title: 'Bitácora 2',
-    date: '2026-08-15',
+    date: '2026-08-14',
     subject: 'EL PODER DEL PERDON_001D',
     category: 'Amor y fragilidad',
     content: `Necesidad estructural de amar: ser valorados, queridos, tener vínculos y sentirnos parte de la naturaleza.
@@ -260,150 +260,6 @@ CUATRO IDEAS CENTRALES
 Misericordia, gratitud, dignidad restaurada y nuevo comienzo.`
   },
   {
-    id: 'actividades-indira-14-08-2026',
-    author: 'Indira',
-    title: 'Actividades complementarias — 14/08/2026',
-    date: '2026-08-14',
-    subject: 'EL PODER DEL PERDON_001D',
-    category: 'Vulnerabilidad y vínculos',
-    content: `Cariño, lealtad y vínculo especial incondicional.
-
-Amor: elección y estar.
-Dolor: sufrimiento.
-Ética cristiana.
-
-VULNERABILIDAD
-La exposición inevitable a ser dañados física o emocionalmente. Lejos de ser una debilidad que ocultar, es la condición que nos permite conectar, empatizar y ser auténticos con los demás.
-
-FRAGILIDAD
-Saber que no somos de piedra y que cualquiera se puede romper. Aceptar nuestros límites nos enseña a cuidarnos mejor y a pedir ayuda cuando la necesitamos.
-
-NECESIDAD DE AMOR
-El impulso biológico y existencial de pertenecer, ser vistos y valorados. Es el motor principal del bienestar humano; sin afecto y vínculo, la mente y el cuerpo se deterioran.
-
-TENSIÓN HUMANA
-La lucha interna entre la dignidad de ser creados a imagen de Dios y la inclinación al pecado o al egoísmo; la brecha entre lo que somos y lo que estamos llamados a ser.
-
-RUTINA: PENSAR, INQUIETAR, EXPLORAR
-
-PENSAR
-¿Qué hace pensar que personas que no se conocen (pacientes y paramédicos) coincidan en que lo más importante es el perdón?
-
-La fragilidad del cuerpo ante la muerte iguala a todos. Los pacientes no piden títulos ni dinero: necesitan irse en paz. El paramédico rompe su distancia profesional al tomar la mano del moribundo y transmitir misericordia. En ese último aliento aparece la tensión entre el peso del pasado y el deseo de redención.
-
-INQUIETAR
-¿Qué inquieta o sorprende de la frase “Frente a la muerte inminente, todo lo que quería era perdón”?
-
-Inquieta que el paciente solo se atreva a admitir sus errores cuando ya no tiene tiempo para defender su ego. La fragilidad de un ataque al corazón o un accidente borra la ilusión de autosuficiencia. Algunas personas ruegan por una gracia que pospusieron toda su vida; la necesidad de absolución sobrepasa incluso el pánico físico a morir.
-
-EXPLORAR
-¿Qué aspectos de la necesidad de amor ignoramos en el día a día y solo reconocemos al final?
-
-Ignoramos la vulnerabilidad al no pedir perdón por miedo a quedar “debajo” del otro. La rutina acelerada e individualista nos hace olvidar la fragilidad y la necesidad del cuidado mutuo. A veces elegimos relaciones por conveniencia en vez de cultivar el perdón y confundimos la necesidad de amor con una presencia más.
-
-EL PUENTE DE LOS VÍNCULOS
-Lo más valioso en una relación de amistad o romántica es el respeto, la lealtad, el apoyo mutuo y la confianza. Duele confiar en alguien que después rompe esa confianza, habla mal de uno o cuenta algo confidencial.
-
-RUTINA: VER, PENSAR, CONECTAR — TESTIMONIO DE STEVEN
-
-VER
-Steven McDonald trabajaba en Central Park y detuvo a tres jóvenes que robaban una bicicleta. Uno de ellos le disparó tres veces, en la mano, el cuello y el ojo, lo dejó parapléjico y cambió trágicamente la vida de ambos.
-
-PENSAR
-Detrás de su labor y de su decisión de perdonar había un deseo de cuidar a su comunidad y liberar a su familia del odio y la amargura.
-
-CONECTAR
-El miedo, la inmadurez o la desesperación pueden llevarnos a reaccionar a la defensiva y herir a otros. Para amar bien necesitamos superar las reacciones impulsivas y elegir la empatía y el perdón por encima del rencor.
-
-KINTSUGI: LA BELLEZA DE LO FRÁGIL
-La grieta que cuesta aceptar es la autoexigencia y el miedo a no ser suficiente. Cuesta asumir los errores y que no se puede controlar todo; el valor personal no depende de los logros, sino también de aprender a quererse con las propias imperfecciones.`
-  },
-  {
-    id: 'actividades-indira-28-08-2026',
-    author: 'Indira',
-    title: 'Actividades complementarias — 28/08/2026',
-    date: '2026-08-28',
-    subject: 'EL PODER DEL PERDON_001D',
-    category: 'Perdón y justicia',
-    content: `LA RESPUESTA A LA IRREVERSIBILIDAD — CITAS DE HANNAH ARENDT
-
-CITA N.º 1
-“El perdón, en su esencia, no tiene nada que ver con la justicia; nace de una experiencia radical de libertad y de la necesidad de seguir viviendo juntos”.
-
-¿Cuál es la diferencia entre perdonar y hacer justicia?
-La justicia se basa en la norma, la retribución y la medida frente a un daño. El perdón no busca una sanción: nace de la libertad y de la necesidad de mantener la convivencia.
-
-¿El perdón puede convivir con la justicia o la reemplaza?
-Pueden convivir de forma complementaria. La justicia atiende el ámbito legal e institucional; el perdón opera en el ámbito interpersonal y ético y permite sanar el vínculo. El perdón no anula la responsabilidad legal.
-
-CITA N.º 2
-“La facultad de perdonar (...) es uno de los pocos actos en los que el ser humano puede ser verdaderamente libre y originar algo nuevo”.
-
-¿Qué relación hay entre perdón y libertad?
-Sin perdón, una persona puede quedar encadenada al pasado y a reacciones como la venganza. Al perdonar, decide romper esa cadena en vez de limitarse a reaccionar a la ofensa.
-
-¿Por qué el perdón puede verse como un acto creador?
-Porque interrumpe la inercia del pasado y genera un nuevo comienzo, abriendo posibilidades que antes no existían.
-
-CITA N.º 3
-¿Qué significa que nuestras acciones son irreversibles?
-Una vez realizada una acción, es imposible deshacerla o volver el tiempo atrás. Todo acto deja una huella permanente.
-
-¿Por qué el perdón es una necesidad más que una opción?
-Como las acciones no se pueden revertir, la vida en comunidad sería insostenible si quedáramos atrapados para siempre en el pasado. El perdón permite continuar viviendo juntos.`
-  },
-  {
-    id: 'actividades-indira-04-09-2026',
-    author: 'Indira',
-    title: 'Actividades complementarias — 04/09/2026',
-    date: '2026-09-04',
-    subject: 'EL PODER DEL PERDON_001D',
-    category: 'Dios nos quiere como Padre',
-    content: `FICHA “MI MOCHILA”
-
-Tres razones por las que cuesta perdonar:
-1. Pensar que no es justo perdonar.
-2. Esperar a que la otra persona pida perdón primero.
-3. Recordar a cada rato lo que hicieron.
-
-RUTINA: COLOR, SÍMBOLO, IMAGEN — TESTIMONIO DE IRENE VILLA
-
-COLOR
-El negro representa la pesadez, el veneno y la opresión. Simboliza cómo el resentimiento consume la energía y ata al pasado.
-
-SÍMBOLO
-Cortar el hilo representa el acto consciente de romper la atadura, recuperar el control de la propia vida y decidir no seguir ligada a quien hizo daño.
-
-IMAGEN
-Una persona de pie en la cima de una colina suelta una mochila metálica pesada que cae al vacío. Con la espalda recta, los hombros relajados y los brazos abiertos, mira hacia el horizonte. La imagen transmite ligereza, paz y libertad para seguir adelante.`
-  },
-  {
-    id: 'actividades-indira-11-09-2026',
-    author: 'Indira',
-    title: 'Actividades complementarias — 11/09/2026',
-    date: '2026-09-11',
-    subject: 'EL PODER DEL PERDON_001D',
-    category: 'Perdón y acogida',
-    content: `PASAJE BÍBLICO: JUAN 8, 1-11 — OBRA DE ARTE DE POLENOV
-
-Una mujer es acusada de adulterio y llevada ante Jesús por escribas y fariseos para ponerlo a prueba. Querían que decidiera si debía ser apedreada. Jesús responde que quien esté libre de pecado sea el primero en lanzar la piedra. Todos se retiran y Jesús no la condena, sino que le da una oportunidad para cambiar su vida.
-
-TESTIMONIO DE TIM GUÉNARD — RUTINA: VER, PENSAR, PREGUNTAR
-
-VER
-Un sacerdote se acerca a Tim y lo trata con cariño y comprensión, a pesar de su pasado y de las cosas malas que había hecho.
-
-PENSAR
-El sacerdote no lo juzgó por sus errores; le mostró que podía ser diferente y que alguien podía confiar en él. El amor, la acogida y el perdón pueden ayudar a una persona a cambiar.
-
-PREGUNTAR
-¿Por qué el sacerdote decidió confiar en Tim a pesar de conocer su pasado?
-¿Cómo influyó este encuentro en el cambio de vida de Tim?
-
-CUATRO CONCEPTOS
-Perdón, confianza, acogida y cambio.`
-  },
-  {
     id: 'bitacora-02-10-2026',
     author: 'PODERDELPERDON',
     title: 'Bitácora 02/10/2026',
@@ -455,7 +311,139 @@ A pesar de las dificultades y los problemas causados, siempre podemos arrepentir
   }
 ];
 
-const missingEntries = initialEntries.filter((initial) => !entries.some((entry) => entry.id === initial.id));
+const entryAdditions = [
+  {
+    id: 'bitacora-2',
+    marker: 'DESARROLLO DE LA CLASE — 14/08/2026',
+    content: `DESARROLLO DE LA CLASE — 14/08/2026
+
+Cariño, lealtad y vínculo especial incondicional.
+Amor: elección y estar. Dolor: sufrimiento. Ética cristiana.
+
+VULNERABILIDAD
+La exposición inevitable a ser dañados física o emocionalmente. No es una debilidad que ocultar: nos permite conectar, empatizar y ser auténticos.
+
+FRAGILIDAD
+No somos de piedra y cualquiera se puede romper. Aceptar nuestros límites nos enseña a cuidarnos y pedir ayuda.
+
+NECESIDAD DE AMOR
+El impulso de pertenecer, ser vistos y valorados. Sin afecto y vínculos, la mente y el cuerpo se deterioran.
+
+TENSIÓN HUMANA
+La lucha entre la dignidad de ser creados a imagen de Dios y la inclinación al pecado o al egoísmo; la distancia entre lo que somos y lo que estamos llamados a ser.
+
+RUTINA: PENSAR, INQUIETAR, EXPLORAR
+
+PENSAR
+La fragilidad del cuerpo ante la muerte iguala a todos. Los pacientes necesitan irse en paz, y el paramédico transmite misericordia al tomar la mano del moribundo. En ese momento aparece la tensión entre el peso del pasado y el deseo de redención.
+
+INQUIETAR
+Frente a la muerte inminente, algunas personas admiten sus errores cuando ya no tienen tiempo para defender su ego. La fragilidad borra la ilusión de autosuficiencia y la necesidad de perdón puede superar incluso el miedo físico a morir.
+
+EXPLORAR
+A veces no pedimos perdón por orgullo y olvidamos que no siempre habrá tiempo. La rutina individualista nos hace olvidar la fragilidad y el cuidado mutuo; podemos confundir la necesidad de amor con una relación de conveniencia.
+
+EL PUENTE DE LOS VÍNCULOS
+En una amistad o relación romántica se valoran el respeto, la lealtad, el apoyo mutuo y la confianza. Duele que alguien rompa la confianza, hable mal de uno o cuente algo confidencial.
+
+TESTIMONIO DE STEVEN McDONALD — VER, PENSAR, CONECTAR
+Steven trabajaba en Central Park y detuvo a tres jóvenes que robaban una bicicleta. Uno le disparó tres veces y lo dejó parapléjico. Detrás de su decisión de perdonar estaba el deseo de cuidar a su comunidad y liberar a su familia del odio. La experiencia invita a superar las reacciones impulsivas y elegir empatía y perdón en vez de rencor.
+
+KINTSUGI: LA BELLEZA DE LO FRÁGIL
+La grieta que cuesta aceptar es la autoexigencia y el miedo a no ser suficiente. El valor personal no depende de los logros; también está en aprender a quererse con las propias imperfecciones.`
+  },
+  {
+    id: 'bitacora-28-08-2026',
+    marker: 'RESPUESTAS DESARROLLADAS — CITAS DE HANNAH ARENDT',
+    content: `RESPUESTAS DESARROLLADAS — CITAS DE HANNAH ARENDT
+
+CITA N.º 1
+“El perdón, en su esencia, no tiene nada que ver con la justicia; nace de una experiencia radical de libertad y de la necesidad de seguir viviendo juntos”.
+
+La justicia se basa en normas, retribución y sanciones. El perdón no busca un castigo: nace de la libertad y de la necesidad de mantener la convivencia.
+
+El perdón y la justicia pueden convivir de forma complementaria. La justicia atiende el ámbito legal e institucional; el perdón actúa en el ámbito interpersonal y ético, y permite sanar el vínculo sin anular la responsabilidad legal.
+
+CITA N.º 2
+“La facultad de perdonar (...) es uno de los pocos actos en los que el ser humano puede ser verdaderamente libre y originar algo nuevo”.
+
+Sin perdón, una persona puede quedar encadenada al pasado y a la venganza. Al perdonar, decide romper esa cadena en lugar de limitarse a reaccionar ante la ofensa.
+
+El perdón es creador porque interrumpe la inercia del pasado y genera un nuevo comienzo con posibilidades que antes no existían.
+
+CITA N.º 3
+Las acciones son irreversibles porque no se pueden deshacer ni volver atrás; cada acto deja una huella permanente.
+
+Como las acciones no se pueden revertir, la vida en comunidad sería insostenible si quedáramos atrapados para siempre en el pasado. El perdón permite continuar viviendo juntos.`
+  },
+  {
+    id: 'bitacora-04-09-2026',
+    marker: 'OTRAS RESPUESTAS — FICHA “MI MOCHILA”',
+    content: `OTRAS RESPUESTAS — FICHA “MI MOCHILA”
+
+También cuesta perdonar porque se piensa que no es justo, porque se espera que la otra persona pida perdón primero y porque se recuerda a cada rato lo que hicieron.
+
+RUTINA: COLOR, SÍMBOLO, IMAGEN — TESTIMONIO DE IRENE VILLA
+
+El negro representa la pesadez, el veneno y la opresión del resentimiento, que consume energía y ata al pasado.
+
+Cortar el hilo simboliza romper conscientemente esa atadura, recuperar el control de la propia vida y decidir no seguir ligada a quien hizo daño.
+
+La imagen es una persona en la cima de una colina que deja caer una mochila metálica pesada. Con los hombros relajados y los brazos abiertos, mira al horizonte: siente ligereza, paz y libertad para seguir adelante.`
+  },
+  {
+    id: 'bitacora-11-09-2026',
+    marker: 'ACTIVIDAD ADICIONAL — JUAN 8, 1-11',
+    content: `ACTIVIDAD ADICIONAL — JUAN 8, 1-11
+
+Una mujer acusada de adulterio es llevada ante Jesús para ponerlo a prueba y preguntarle si debe ser apedreada. Jesús responde que quien esté libre de pecado lance la primera piedra. Todos se retiran y Jesús no la condena: le da una oportunidad para cambiar su vida.
+
+TESTIMONIO DE TIM GUÉNARD
+Un sacerdote se acerca a Tim con cariño y comprensión, a pesar de su pasado. Al no juzgarlo por sus errores, sino mostrarle que puede ser diferente y que alguien puede confiar en él, le enseña que el amor, la acogida y el perdón ayudan a cambiar.
+
+PREGUNTAS
+¿Por qué el sacerdote decidió confiar en Tim a pesar de conocer su pasado?
+¿Cómo influyó este encuentro en el cambio de vida de Tim?
+
+CUATRO CONCEPTOS
+Perdón, confianza, acogida y cambio.`
+  }
+];
+
+for (const addition of entryAdditions) {
+  const seed = initialEntries.find((entry) => entry.id === addition.id);
+  if (seed && !seed.content.includes(addition.marker)) {
+    seed.content += `\n\n${addition.content}`;
+  }
+}
+
+const removedEntryIds = new Set([
+  'actividades-indira-14-08-2026',
+  'actividades-indira-28-08-2026',
+  'actividades-indira-04-09-2026',
+  'actividades-indira-11-09-2026'
+]);
+const retainedEntries = entries.filter((entry) => !removedEntryIds.has(entry.id));
+let entriesChanged = retainedEntries.length !== entries.length;
+entries = retainedEntries;
+
+for (const addition of entryAdditions) {
+  const entry = entries.find((item) => item.id === addition.id);
+  if (!entry) continue;
+  if (!entry.content.includes(addition.marker)) {
+    entry.content += `\n\n${addition.content}`;
+    entriesChanged = true;
+  }
+  if (entry.id === 'bitacora-2' && entry.date === '2026-08-15') {
+    entry.date = '2026-08-14';
+    entriesChanged = true;
+  }
+}
+if (entriesChanged) save(ENTRIES_KEY, entries);
+
+const missingEntries = initialEntries.filter((initial) =>
+  !removedEntryIds.has(initial.id) && !entries.some((entry) => entry.id === initial.id)
+);
 if (missingEntries.length) {
   entries = [...missingEntries, ...entries];
   save(ENTRIES_KEY, entries);
