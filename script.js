@@ -72,6 +72,63 @@ if (limitedAdmin) {
 
 const initialEntries = [
   {
+    id: 'bitacora-30-10-2026',
+    author: 'PODERDELPERDON',
+    title: 'Vitacora 30-10-2026',
+    date: '2026-10-30',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Perdón ante el daño irreparable',
+    content: `¿Hay ofensas que nunca deberían perdonarse?
+
+Cuando el daño parece imperdonable
+
+La gravedad de una ofensa puede afectar:
+- La confianza en otras personas.
+- La percepción.
+- Los vínculos y la tranquilidad interior.
+
+Cinco conceptos fundamentales:
+- Justicia.
+- Impunidad.
+- Dignidad.
+- Radicalidad del mal.
+- Libertad interior.
+
+ACTIVIDAD GLADIADOR
+
+¿Qué necesita Máximo en ese momento para sentir que se hace justicia?
+
+Necesita venganza, aunque sea en esta vida o en la otra.
+
+¿Qué obstáculos emocionales surgen cuando el daño es tan irreparable como el asesinato de una familia?
+
+La ira y el dolor son los mayores obstáculos emocionales cuando es irreparable.
+
+¿Qué parte de nosotros “conecta” o simpatiza con su deseo de venganza?
+
+La empatía humana cuando hay una injusticia extrema.
+
+ACTIVIDAD TESTIMONIO ROSIE AYLIFFE
+
+Elegir un color para la “paz” que Rosie deseó al asesino y su familia para liberarse a sí misma.
+
+Verde oliva.
+
+No es un color alegre ni eufórico, sino un tono apacible que representa reconciliación y la tregua con el propio dolor. No eligió olvidar ni justificar lo ocurrido y entendió que guardar rencor solo alimentaba su parálisis y su sufrimiento físico.
+
+Crear un símbolo para las “tijeras” que cortan el hilo del odio.
+
+Unas tijeras cortando un cordón o hilo negro.
+
+El odio actúa como un lazo invisible que ata a la víctima con su agresor de forma permanente. Al redactar la carta para la madre de Ayad expresándole que no le guardaba rencor, Rosie usó esas tijeras para cortar la espiral del rencor.
+
+Describir la imagen del encuentro de miradas en el tribunal entre la víctima y el victimario.
+
+El cruce de miradas en silencio entre Rosie y Ayad en el tribunal. Frente a ella no hay un monstruo, sino un joven roto, encadenado y consumido por la culpa.
+
+Es el momento en que el rencor se apaga. Rosie entiende que cruzó el mundo no para buscar venganza, sino para conectar con él como ser humano desde el dolor compartido.`
+  },
+  {
     id: 'bitacora-1',
     author: 'PODERDELPERDON',
     title: 'Bitácora 1',
@@ -308,6 +365,52 @@ CRUZANDO EL UMBRAL — ACTIVIDAD DE CIERRE
 Escribe en la puerta una palabra de esperanza que resuma lo aprendido.
 
 A pesar de las dificultades y los problemas causados, siempre podemos arrepentirnos: Jesús nos perdona y nos guarda un lugar en el Paraíso. La idea no es cometer errores hasta cambiar, sino empezar nosotros mismos el cambio desde ahora.`
+  },
+  {
+    id: 'bitacora-06-11-2026',
+    author: 'PODERDELPERDON',
+    title: 'Bitácora 06/11/2026',
+    date: '2026-11-06',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Decisión, sentimiento y liberación',
+    content: `DECISIÓN
+
+Corresponde a la voluntad.
+Implica elegir la proactividad como forma de actuar.
+
+SENTIMIENTO
+
+Corresponde a una afectividad.
+Trata de lo que siente la persona e implica un proceso de reflexión, pensamiento y evaluación.
+
+CLIMA EMOCIONAL
+
+Negación
+Ira
+Negociación
+Aceptación
+Liberación
+
+No es estrictamente lineal y no todas las personas lo experimentan en el mismo orden.
+
+ACTIVIDAD
+
+¿Qué detalles físicos observas en la imagen? ¿Qué detalles del cuerpo y del entorno sugieren que este ha sido un camino largo?
+
+Se observa a un hombre de considerable edad que corre con los brazos abiertos, como si estuviera aceptando a la persona. También se observa a un chico con ropa desgastada, el pelo desordenado, un bolso con rasgaduras y la cabeza gacha, como si estuviera arrepentido de haberse ido.
+
+¿Qué crees que está pasando por la mente de esa persona? ¿Es un camino fácil o requiere esfuerzo constante? ¿Por qué a veces el perdón se siente como caminar por un desierto?
+
+Creo que lleva una especie de carga en la espalda: arrepentimiento. Tal vez el camino de ida fue fácil y el de regreso fue difícil.
+
+El camino del perdón es complejo, puede llegar a ser pesado y lastimar a quien lo recorre.
+
+ACTIVIDAD: CONSTRUYENDO EL ITINERARIO DE LA LIBERACIÓN
+
+Estación 1: El impacto (dolor e ira).
+Estación 2: La lucha interior (resistencias y “¿por qué a mí?”).
+Estación 3: La decisión (elegir no cobrar la deuda).
+Estación 4: La paz (mirar la herida sin que sangre).`
   }
 ];
 
