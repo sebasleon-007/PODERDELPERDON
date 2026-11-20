@@ -72,6 +72,63 @@ if (limitedAdmin) {
 
 const initialEntries = [
   {
+    id: 'bitacora-30-10-2026',
+    author: 'PODERDELPERDON',
+    title: 'Vitacora 30-10-2026',
+    date: '2026-10-30',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Perdón ante el daño irreparable',
+    content: `¿Hay ofensas que nunca deberían perdonarse?
+
+Cuando el daño parece imperdonable
+
+La gravedad de una ofensa puede afectar:
+- La confianza en otras personas.
+- La percepción.
+- Los vínculos y la tranquilidad interior.
+
+Cinco conceptos fundamentales:
+- Justicia.
+- Impunidad.
+- Dignidad.
+- Radicalidad del mal.
+- Libertad interior.
+
+ACTIVIDAD GLADIADOR
+
+¿Qué necesita Máximo en ese momento para sentir que se hace justicia?
+
+Necesita venganza, aunque sea en esta vida o en la otra.
+
+¿Qué obstáculos emocionales surgen cuando el daño es tan irreparable como el asesinato de una familia?
+
+La ira y el dolor son los mayores obstáculos emocionales cuando es irreparable.
+
+¿Qué parte de nosotros “conecta” o simpatiza con su deseo de venganza?
+
+La empatía humana cuando hay una injusticia extrema.
+
+ACTIVIDAD TESTIMONIO ROSIE AYLIFFE
+
+Elegir un color para la “paz” que Rosie deseó al asesino y su familia para liberarse a sí misma.
+
+Verde oliva.
+
+No es un color alegre ni eufórico, sino un tono apacible que representa reconciliación y la tregua con el propio dolor. No eligió olvidar ni justificar lo ocurrido y entendió que guardar rencor solo alimentaba su parálisis y su sufrimiento físico.
+
+Crear un símbolo para las “tijeras” que cortan el hilo del odio.
+
+Unas tijeras cortando un cordón o hilo negro.
+
+El odio actúa como un lazo invisible que ata a la víctima con su agresor de forma permanente. Al redactar la carta para la madre de Ayad expresándole que no le guardaba rencor, Rosie usó esas tijeras para cortar la espiral del rencor.
+
+Describir la imagen del encuentro de miradas en el tribunal entre la víctima y el victimario.
+
+El cruce de miradas en silencio entre Rosie y Ayad en el tribunal. Frente a ella no hay un monstruo, sino un joven roto, encadenado y consumido por la culpa.
+
+Es el momento en que el rencor se apaga. Rosie entiende que cruzó el mundo no para buscar venganza, sino para conectar con él como ser humano desde el dolor compartido.`
+  },
+  {
     id: 'bitacora-1',
     author: 'PODERDELPERDON',
     title: 'Bitácora 1',
@@ -308,6 +365,92 @@ CRUZANDO EL UMBRAL — ACTIVIDAD DE CIERRE
 Escribe en la puerta una palabra de esperanza que resuma lo aprendido.
 
 A pesar de las dificultades y los problemas causados, siempre podemos arrepentirnos: Jesús nos perdona y nos guarda un lugar en el Paraíso. La idea no es cometer errores hasta cambiar, sino empezar nosotros mismos el cambio desde ahora.`
+  },
+  {
+    id: 'bitacora-06-11-2026',
+    author: 'PODERDELPERDON',
+    title: 'Bitácora 06/11/2026',
+    date: '2026-11-06',
+    subject: 'EL PODER DEL PERDON_001D',
+    category: 'Decisión, sentimiento y liberación',
+    content: `DECISIÓN
+
+Corresponde a la voluntad.
+Implica elegir la proactividad como forma de actuar.
+
+SENTIMIENTO
+
+Corresponde a una afectividad.
+Trata de lo que siente la persona e implica un proceso de reflexión, pensamiento y evaluación.
+
+CLIMA EMOCIONAL
+
+Negación
+Ira
+Negociación
+Aceptación
+Liberación
+
+No es estrictamente lineal y no todas las personas lo experimentan en el mismo orden.
+
+ACTIVIDAD
+
+¿Qué detalles físicos observas en la imagen? ¿Qué detalles del cuerpo y del entorno sugieren que este ha sido un camino largo?
+
+Se observa a un hombre de considerable edad que corre con los brazos abiertos, como si estuviera aceptando a la persona. También se observa a un chico con ropa desgastada, el pelo desordenado, un bolso con rasgaduras y la cabeza gacha, como si estuviera arrepentido de haberse ido.
+
+¿Qué crees que está pasando por la mente de esa persona? ¿Es un camino fácil o requiere esfuerzo constante? ¿Por qué a veces el perdón se siente como caminar por un desierto?
+
+Creo que lleva una especie de carga en la espalda: arrepentimiento. Tal vez el camino de ida fue fácil y el de regreso fue difícil.
+
+El camino del perdón es complejo, puede llegar a ser pesado y lastimar a quien lo recorre.
+
+ACTIVIDAD: CONSTRUYENDO EL ITINERARIO DE LA LIBERACIÓN
+
+Estación 1: El impacto (dolor e ira).
+Estación 2: La lucha interior (resistencias y “¿por qué a mí?”).
+Estación 3: La decisión (elegir no cobrar la deuda).
+Estación 4: La paz (mirar la herida sin que sangre).
+
+ITINERARIO PERSONAL DE LIBERACIÓN
+
+1. EL IMPACTO: DOLOR E IRA
+
+El shock y la rabia inmediata al sufrir el segundo robo de tu celular. Sentiste el dolor de perder tu herramienta de comunicación y seguridad, experimentando un susto profundo que sacudió tu tranquilidad y que te costó asimilar en un principio.
+
+2. LA LUCHA INTERIOR: RESISTENCIAS
+
+Las dudas, el miedo residual y la frustración constante. Te enfrentas al choque entre la paranoia de salir a la calle o usar el celular con temor, y el deseo real de superar la angustia para no vivir atrapado en el asustado recuerdo de los robos.
+
+3. LA DECISIÓN: RENUNCIAR A LA VENGANZA
+
+El momento en que decides conscientemente no permitir que la rabia hacia lo sucedido o hacia los delincuentes consuma tus días. Eliges asimilar la pérdida y dejar de culparte o lamentarte, priorizando tu propia tranquilidad sobre la rabia.
+
+4. LA PAZ: LIBERTAD INTERIOR
+
+La etapa final donde logras recordar los robos simplemente como un mal rato superado. Vuelves a caminar por la calle con precaución y cuidado, pero sin la parálisis del miedo ni el susto inicial dominando tu vida diaria.
+
+RUTINA DE PENSAMIENTO: ANTES, DURANTE Y DESPUÉS
+
+1. ANTES
+
+¿Qué se rompió físicamente y en la seguridad de la Iglesia aquel 13 de mayo de 1981?
+
+Se vulneró la salud y la integridad del papa tras ser impactado por los disparos directos de Mehmet durante su recorrido en la Plaza de San Pedro. El acontecimiento obligó a reestructurar totalmente los esquemas de resguardo del Vaticano, impulsando el diseño del vehículo blindado o papamóvil.
+
+2. DURANTE
+
+Identifiquen la fase en la cual el Santo Padre resuelve otorgar la absolución.
+
+El acto de absolver ocurrió casi de inmediato. A escasos días del atentado, el 17 de mayo de 1981, en plena etapa de convalecencia en el Hospital Gemelli, el Papa proclamó públicamente la condonación del agravio hacia su atacante, refiriéndose a él como “el hermano que me ha herido, a quien he perdonado sinceramente”.
+
+3. DESPUÉS
+
+¿De qué manera se evidencia la “estación de la serenidad” en la reunión de 1983 y en el acto de Mehmet ante el sepulcro del Papa en 2014?
+
+Reunión de 1983: La “estación de la serenidad” se materializó con la presencia del Papa en la cárcel de Rebibbia para dialogar cara a cara con su agresor. En dicha conversación reservada, revalidó su postura pacífica, desprovista de resentimiento.
+
+En diciembre de 2014, Mehmet acudió a las criptas vaticanas para rendir homenaje depositando flores blancas sobre la tumba de Juan Pablo II, demostrando la capacidad de la reconciliación para disolver la violencia del pasado.`
   }
 ];
 
@@ -407,6 +550,49 @@ PREGUNTAS
 
 CUATRO CONCEPTOS
 Perdón, confianza, acogida y cambio.`
+  },
+  {
+    id: 'bitacora-06-11-2026',
+    marker: 'RESPUESTAS DE ACTIVIDADES — 06/11/2026',
+    content: `RESPUESTAS DE ACTIVIDADES — 06/11/2026
+
+ITINERARIO PERSONAL DE LIBERACIÓN
+
+1. EL IMPACTO: DOLOR E IRA
+
+El shock y la rabia inmediata al sufrir el segundo robo del celular. Sentí el dolor de perder mi herramienta de comunicación y seguridad. El susto profundo sacudió mi tranquilidad y al principio me costó asimilarlo.
+
+2. LA LUCHA INTERIOR: RESISTENCIAS
+
+Las dudas, el miedo residual y la frustración constante. Me enfrenté al choque entre la paranoia de salir a la calle o usar el celular con temor, y el deseo de superar la angustia para no vivir atrapado en el recuerdo asustado de los robos.
+
+3. LA DECISIÓN: RENUNCIAR A LA VENGANZA
+
+Decidí conscientemente no permitir que la rabia por lo sucedido o hacia los delincuentes consumiera mis días. Elegí asimilar la pérdida y dejar de culparme o lamentarme, priorizando mi tranquilidad sobre la rabia.
+
+4. LA PAZ: LIBERTAD INTERIOR
+
+Logré recordar los robos como un mal rato superado. Vuelvo a caminar por la calle con precaución y cuidado, pero sin que la parálisis del miedo ni el susto inicial dominen mi vida diaria.
+
+RUTINA DE PENSAMIENTO: ANTES, DURANTE Y DESPUÉS
+
+1. ANTES
+
+Pregunta: ¿Qué se rompió físicamente y en la seguridad de la Iglesia aquel 13 de mayo de 1981?
+
+Respuesta: Se vulneró la salud y la integridad del papa tras ser impactado por los disparos de Mehmet durante su recorrido en la Plaza de San Pedro. El acontecimiento llevó a reestructurar los esquemas de resguardo del Vaticano y a diseñar el vehículo blindado o papamóvil.
+
+2. DURANTE
+
+Pregunta: ¿En qué fase resuelve el Santo Padre otorgar la absolución?
+
+Respuesta: El acto de absolver ocurrió casi de inmediato. El 17 de mayo de 1981, a pocos días del atentado y durante su convalecencia en el Hospital Gemelli, el Papa proclamó públicamente el perdón a su atacante: “el hermano que me ha herido, a quien he perdonado sinceramente”.
+
+3. DESPUÉS
+
+Pregunta: ¿De qué manera se evidencia la “estación de la serenidad” en la reunión de 1983 y en el acto de Mehmet ante el sepulcro del Papa en 2014?
+
+Respuesta: En 1983, el Papa visitó a su agresor en la cárcel de Rebibbia y conversó con él cara a cara, reafirmando una postura pacífica y sin resentimiento. En diciembre de 2014, Mehmet acudió a las criptas vaticanas y depositó flores blancas sobre la tumba de Juan Pablo II, mostrando cómo la reconciliación puede ayudar a dejar atrás la violencia del pasado.`
   }
 ];
 
