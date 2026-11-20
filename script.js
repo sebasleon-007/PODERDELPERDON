@@ -550,6 +550,49 @@ PREGUNTAS
 
 CUATRO CONCEPTOS
 Perdón, confianza, acogida y cambio.`
+  },
+  {
+    id: 'bitacora-06-11-2026',
+    marker: 'RESPUESTAS DE ACTIVIDADES — 06/11/2026',
+    content: `RESPUESTAS DE ACTIVIDADES — 06/11/2026
+
+ITINERARIO PERSONAL DE LIBERACIÓN
+
+1. EL IMPACTO: DOLOR E IRA
+
+El shock y la rabia inmediata al sufrir el segundo robo del celular. Sentí el dolor de perder mi herramienta de comunicación y seguridad. El susto profundo sacudió mi tranquilidad y al principio me costó asimilarlo.
+
+2. LA LUCHA INTERIOR: RESISTENCIAS
+
+Las dudas, el miedo residual y la frustración constante. Me enfrenté al choque entre la paranoia de salir a la calle o usar el celular con temor, y el deseo de superar la angustia para no vivir atrapado en el recuerdo asustado de los robos.
+
+3. LA DECISIÓN: RENUNCIAR A LA VENGANZA
+
+Decidí conscientemente no permitir que la rabia por lo sucedido o hacia los delincuentes consumiera mis días. Elegí asimilar la pérdida y dejar de culparme o lamentarme, priorizando mi tranquilidad sobre la rabia.
+
+4. LA PAZ: LIBERTAD INTERIOR
+
+Logré recordar los robos como un mal rato superado. Vuelvo a caminar por la calle con precaución y cuidado, pero sin que la parálisis del miedo ni el susto inicial dominen mi vida diaria.
+
+RUTINA DE PENSAMIENTO: ANTES, DURANTE Y DESPUÉS
+
+1. ANTES
+
+Pregunta: ¿Qué se rompió físicamente y en la seguridad de la Iglesia aquel 13 de mayo de 1981?
+
+Respuesta: Se vulneró la salud y la integridad del papa tras ser impactado por los disparos de Mehmet durante su recorrido en la Plaza de San Pedro. El acontecimiento llevó a reestructurar los esquemas de resguardo del Vaticano y a diseñar el vehículo blindado o papamóvil.
+
+2. DURANTE
+
+Pregunta: ¿En qué fase resuelve el Santo Padre otorgar la absolución?
+
+Respuesta: El acto de absolver ocurrió casi de inmediato. El 17 de mayo de 1981, a pocos días del atentado y durante su convalecencia en el Hospital Gemelli, el Papa proclamó públicamente el perdón a su atacante: “el hermano que me ha herido, a quien he perdonado sinceramente”.
+
+3. DESPUÉS
+
+Pregunta: ¿De qué manera se evidencia la “estación de la serenidad” en la reunión de 1983 y en el acto de Mehmet ante el sepulcro del Papa en 2014?
+
+Respuesta: En 1983, el Papa visitó a su agresor en la cárcel de Rebibbia y conversó con él cara a cara, reafirmando una postura pacífica y sin resentimiento. En diciembre de 2014, Mehmet acudió a las criptas vaticanas y depositó flores blancas sobre la tumba de Juan Pablo II, mostrando cómo la reconciliación puede ayudar a dejar atrás la violencia del pasado.`
   }
 ];
 
