@@ -410,7 +410,47 @@ ACTIVIDAD: CONSTRUYENDO EL ITINERARIO DE LA LIBERACIÓN
 Estación 1: El impacto (dolor e ira).
 Estación 2: La lucha interior (resistencias y “¿por qué a mí?”).
 Estación 3: La decisión (elegir no cobrar la deuda).
-Estación 4: La paz (mirar la herida sin que sangre).`
+Estación 4: La paz (mirar la herida sin que sangre).
+
+ITINERARIO PERSONAL DE LIBERACIÓN
+
+1. EL IMPACTO: DOLOR E IRA
+
+El shock y la rabia inmediata al sufrir el segundo robo de tu celular. Sentiste el dolor de perder tu herramienta de comunicación y seguridad, experimentando un susto profundo que sacudió tu tranquilidad y que te costó asimilar en un principio.
+
+2. LA LUCHA INTERIOR: RESISTENCIAS
+
+Las dudas, el miedo residual y la frustración constante. Te enfrentas al choque entre la paranoia de salir a la calle o usar el celular con temor, y el deseo real de superar la angustia para no vivir atrapado en el asustado recuerdo de los robos.
+
+3. LA DECISIÓN: RENUNCIAR A LA VENGANZA
+
+El momento en que decides conscientemente no permitir que la rabia hacia lo sucedido o hacia los delincuentes consuma tus días. Eliges asimilar la pérdida y dejar de culparte o lamentarte, priorizando tu propia tranquilidad sobre la rabia.
+
+4. LA PAZ: LIBERTAD INTERIOR
+
+La etapa final donde logras recordar los robos simplemente como un mal rato superado. Vuelves a caminar por la calle con precaución y cuidado, pero sin la parálisis del miedo ni el susto inicial dominando tu vida diaria.
+
+RUTINA DE PENSAMIENTO: ANTES, DURANTE Y DESPUÉS
+
+1. ANTES
+
+¿Qué se rompió físicamente y en la seguridad de la Iglesia aquel 13 de mayo de 1981?
+
+Se vulneró la salud y la integridad del papa tras ser impactado por los disparos directos de Mehmet durante su recorrido en la Plaza de San Pedro. El acontecimiento obligó a reestructurar totalmente los esquemas de resguardo del Vaticano, impulsando el diseño del vehículo blindado o papamóvil.
+
+2. DURANTE
+
+Identifiquen la fase en la cual el Santo Padre resuelve otorgar la absolución.
+
+El acto de absolver ocurrió casi de inmediato. A escasos días del atentado, el 17 de mayo de 1981, en plena etapa de convalecencia en el Hospital Gemelli, el Papa proclamó públicamente la condonación del agravio hacia su atacante, refiriéndose a él como “el hermano que me ha herido, a quien he perdonado sinceramente”.
+
+3. DESPUÉS
+
+¿De qué manera se evidencia la “estación de la serenidad” en la reunión de 1983 y en el acto de Mehmet ante el sepulcro del Papa en 2014?
+
+Reunión de 1983: La “estación de la serenidad” se materializó con la presencia del Papa en la cárcel de Rebibbia para dialogar cara a cara con su agresor. En dicha conversación reservada, revalidó su postura pacífica, desprovista de resentimiento.
+
+En diciembre de 2014, Mehmet acudió a las criptas vaticanas para rendir homenaje depositando flores blancas sobre la tumba de Juan Pablo II, demostrando la capacidad de la reconciliación para disolver la violencia del pasado.`
   }
 ];
 
